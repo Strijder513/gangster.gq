@@ -1,4 +1,3 @@
-
 <html>
     <link rel="stylesheet" href="/css/style.css">
     <script type = "text/javascript" src="/js/index.js"></script>
