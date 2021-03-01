@@ -1,22 +1,45 @@
 <html>
+    <head>
+
     <link rel="stylesheet" href="/css/style.css">
-    <script type = "text/javascript" src="/js/index.js"></script>
+    <script type = "text/javascript" src="js/index.js"></script>
     <title>Welcome</title>
-<head>
+        
 </head>
 <body>
-    
-    <!-- Makes the code a little bit cleaner, i guess.-->
-
-<div>
-    <h1 class="welcome">Welcome.</h1>
-</div>
-
-<div>
+<div class="center">
+    <span class="type"></span>
     <a href="https://github.com/Strijder513/gangster.gq">
-    <img class="github" src="/pictures/github.png" width="100" height="100">
-</a>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    Github
+    </a>
+
 </div>
- 
+
+<script src="/js/typed.js"></script>
+<script>
+
+    var typed = new Typed(".type", {
+        strings: [
+            "Welcome...",
+            "Check out my github...",
+            ":)"
+        ],
+
+        typeSpeed: 100,
+        delay:  75,
+        
+    });
+
+    
+
+
+</script>
+
+
+
 </body>
 </html>
